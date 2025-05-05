@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	renomeando "strings"
+)
 
 func main(){
-	fmt.Println("Hello world!")
+	fmt.Println("teste")
+	fmt.Println(renomeando.Split("joao", ""))
+	//output = [j o a o]
 }
