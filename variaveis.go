@@ -38,4 +38,22 @@ func main() {
 	fmt.Println(i)
 	fmt.Println(j)
 	fmt.Println(k)
+
+	//constantes
+	const PI float32 = 3.14
+	const constante = 150
+
+	fmt.Println(PI)
+	fmt.Println(constante)
+
+	//declaração de multiplas const
+	const (
+		l int = 20
+		m     = 50
+		n     = 70
+	)
+
+	fmt.Println(l)
+	fmt.Println(m)
+	fmt.Println(n)
 }
