@@ -12,7 +12,7 @@ func main(){
 		"Joao": "GOAT",
 	}
 	fmt.Println(m)
-	fmt.Println(m2)
+	fmt.Println(m2) // PONTO IMPORTANTE: Maps em go sao sempre desordenados, lembrar disso em casos de tratativa de map.
 	
 	sliceMap := map[string][3]int{ // aqui estamos criando um map de slices, nesse exemplo ele tem a chave "Numeros" que aponta para um slice de inteiros
 		"Numeros": {1,2,3},
