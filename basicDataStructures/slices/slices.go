@@ -15,3 +15,11 @@ func main(){
 	fmt.Println(sliceIndependente)
 
 }
+
+func teste(){
+	arr := [5]int{1,2,3,4,5}
+	slice := arr[:2:2]
+
+	fmt.Println(arr)
+	fmt.Println(slice)
+}
